@@ -1,0 +1,55 @@
+import type { Room } from "./types";
+
+export const rooms: Room[] = [
+  {
+    number: 1,
+    title: "Too Much Colour",
+    kicker: "Painting, turned all the way up",
+    text: "Six painters who treat restraint as a dare they refuse to take. Stripes that buzz, rings that wobble and faces built in a hurry. Stand in the middle of the room: everything is looking at you.",
+    preset: "room-squiggle",
+    keyWork: "ines-obrador-1",
+  },
+  {
+    number: 2,
+    title: "Pattern Recognition",
+    kicker: "Quilts, barkcloth, wallpaper and prints",
+    text: "The pattern-makers. Repetition here is a kind of memory: of grandmothers' looms, parade umbrellas and strangers' clothes. Look long enough and the patterns start to look back.",
+    preset: "room-dots",
+    keyWork: "priya-ramanathan-1",
+  },
+  {
+    number: 3,
+    title: "Soft & Loud",
+    kicker: "Sculpture that won't sit still",
+    text: "Foam pretending to be marble, inflatables that sigh on a timer, and a totem built from shop signs. One of these sculptures is designed to be sat on. The invigilators will not tell you which.",
+    preset: "room-leopard",
+    keyWork: "tunde-bakare-1",
+    note: "Inflatables move slowly every 20 minutes.",
+  },
+  {
+    number: 4,
+    title: "Night Bloom",
+    kicker: "Neon, LED and slowed-down fireworks",
+    text: "The lights go down and the work switches on. This is the dimmest room in MORE and the loudest in colour. There is a quiet corner with seating by the exit, marked on the sensory map.",
+    preset: "room-grid",
+    keyWork: "noor-haddad-1",
+    note: "Low light. No flashing: light levels change slowly.",
+  },
+  {
+    number: 5,
+    title: "Crowd Scenes",
+    kicker: "Photographs of people, together",
+    text: "At rush hour, at weddings, at feasts, at closing time. Nobody here is alone and nobody is quiet. The biggest print in the room is the size of a London bus.",
+    preset: "room-stripes",
+    keyWork: "zanele-mokoena-1",
+  },
+  {
+    number: 6,
+    title: "Everything, Everywhere",
+    kicker: "The finale",
+    text: "A room-sized collage that grows every day, a mural that will be painted over when the show closes, and 40,000 postcards. Bring an offcut, any paper in any colour, and the Confetti Collective will add it to the wall.",
+    preset: "room-zigzag",
+    keyWork: "the-confetti-collective-1",
+    note: "Busiest room on weekend afternoons.",
+  },
+];

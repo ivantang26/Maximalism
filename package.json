@@ -1,0 +1,30 @@
+{
+  "name": "loud-house",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Loud House gallery website and the MORE exhibition microsite. Loud frame, quiet facts.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "npm run check:contrast && next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "check:contrast": "tsx scripts/check-contrast.ts",
+    "make:access-docs": "node scripts/make-access-docs.mjs"
+  },
+  "dependencies": {
+    "framer-motion": "^12.43.0",
+    "next": "^16.3.7",
+    "qrcode": "^1.5.4",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.4",
+    "@types/qrcode": "^1.5.5",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.2.0",
+    "pdf-lib": "^1.17.1",
+    "tsx": "^4.23.15",
+    "typescript": "~5.9.3"
+  }
+}
